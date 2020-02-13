@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots">
+    <meta content="follow"> <meta content="recipe, recipes, oatmeal, cooking, baking">
+    <title>Cooking Recipes</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+  </head>
+  
+  <body>
+      <div id="container">
+          <header>
+            <h1>Soft Oatmeal Cookies</h1>
+           <h3>Recipe of the week</h3>
+
+            <img src="https://i.imgur.com/J6ziZLA.jpg">
+            <p>Soft Oatmeal Cookies there’s just nothing that can quite compare. Perfectly golden outside with a sweet and chewy interior, this cookie is a classic for a reason. Keep these on the counter for any sweet snack on the go and feel your quality of life dramatically improve!</p>
+          </header>
+
+
+        <section id="ingredients" onmouseover="ingredientsHover()"        onmouseout="ingredientsNormal()">
+          <h2>
+            Ingredients <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+          </h2>
+            <ul>
+              <li>2 cups all-purpose flour</li>
+              <li>3 cups quick cooking oats</li>
+              <li>2 eggs</li>
+              <li>1 cup butter, softened</li>
+              <li>1 cup white sugar</li>
+              <li>1 cup packed brown sugar</li>
+              <li>1 teaspoon baking soda</li>
+              <li>1 teaspoon salt</li>
+              <li>1 1/2 teaspoons ground cinnamon</li>
+              <li>1 teaspoon vanilla extract</li>
+            </ul>
+        </section>
+
+        <section id="preparation" onmouseover="preparationHover()" onmouseout="preparationNormal()">
+          <h2>Preparation <i class="fa fa-spoon" aria-hidden="true"></i></h2>
+         <ol>
+            <li>In a medium bowl, cream together butter, white sugar, and brown sugar. Beat in eggs one at a time, then stir in vanilla. Combine flour, baking soda, salt, and cinnamon; stir into the creamed mixture. Mix in oats. Cover, and chill dough for at least one hour.</li>
+            <li>Preheat the oven to 375 degrees F (190 degrees C). Grease cookie sheets. Roll the dough into walnut sized balls, and place 2 inches apart on cookie sheets. Flatten each cookie with a large fork dipped in sugar.</li>
+            <li>Bake for 8 to 10 minutes in preheated oven. Allow cookies to cool on baking sheet for 5 minutes before transferring to a wire rack to cool completely.</li>
+          </ol>
+        </section>
+
+
+        <div class="uno">
+          <p>Tell us your opinion about this recipe and enjoy it!</p>
+        </div>
+       
+
+        <footer>
+          <p>Copyright by me 2020</p>
+        </footer>
+
+
+
+      </div>
+
+
+         <script>
+           function ingredientsHover(){
+            document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize = '300%';
+           }
+
+           function ingredientsNormal() {
+            document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize = '100%';
+            // document.write("Normal");  
+           }
+
+           function preparationHover() {
+            document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = '300%';
+           }
+
+           function preparationNormal() {
+            document.getElementById('preparation').firstElementChild.firstElementChild.style.fontSize = '100%';
+           }
+          </script>
+  
+  </body>
+</html>
+
+
