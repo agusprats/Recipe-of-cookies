@@ -1,7 +1,7 @@
 # Recipe-of-cookies
 How to make Oatmeal Cokkies<hr>
 
-Simple one page site with hover and responsive design<hr>
+Simple one page template. HTML and CSS, with hover and responsive design<hr>
 
 <a href="https://agusprats.github.io/Recipe-of-cookies/">See Demo</a>
 <hr/>
